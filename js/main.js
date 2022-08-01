@@ -9,3 +9,11 @@ const navMenu = () => {
         navBtnImg.src = './img/icons/nav-open.svg';
     }
 }
+
+AOS.init();
+/* { 
+    once: true - to turn off constant animation 
+    disable: mobile - to turn off animations on mobile
+}
+
+*/
