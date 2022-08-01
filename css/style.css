@@ -142,7 +142,7 @@ body {
     margin-top: 90px;
 }
 
-.portfolio-title-1 {
+.title-1 {
     font-weight: 600;
     font-size: 34px;
     line-height: 51px;
@@ -162,4 +162,62 @@ body {
 .project-title a {
     color: #000;
     text-decoration: underline;
+}
+
+/* Contacts */
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+}
+
+.contacts-content {
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.button {
+    display: inline-block;
+    padding: 7.5px 22.5px;
+    background: #070707;
+    border-radius: 27px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+    transition: background-color 0.3s ease-out, top 0.3s ease-out;
+}
+
+.button:hover, .button:focus {
+    background-color: #1d1d1d;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 41px;
+}
+
+.contacts-footer {
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
 }
