@@ -121,3 +121,45 @@ body {
     font-size: 14px;
     line-height: 28px;
 }
+
+/* Portfolio */
+
+.portfolio {
+    background: rgba(241, 241, 241, 1);
+    padding: 90px 0;
+}
+
+.portfolio-headline {
+    margin-bottom: 70.33px;
+    text-align: center;
+}
+
+.portfolio-project {
+    text-align: center;
+}
+
+.portfolio-project + .portfolio-project {
+    margin-top: 90px;
+}
+
+.portfolio-title-1 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+.project-title a {
+    color: #000;
+    text-decoration: underline;
+}
