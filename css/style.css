@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 76px;
 }
 
 .header-logo {
@@ -61,4 +62,29 @@ body {
 
 .nav-link.active {
     color: rgba(96, 96, 96, 1);
+}
+
+.header-person {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 30px;
+}
+
+.header-title {
+    margin-bottom: 20px;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 66px;
+}
+
+.header-content {
+    max-width: 500px;
+    margin-top: 126px;
+}
+
+.header-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
 }
