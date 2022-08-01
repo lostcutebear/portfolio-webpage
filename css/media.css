@@ -77,4 +77,41 @@
     .services {
         padding: 60px 0;
     }
+
+    .portfolio {
+        padding: 60px 0;
+    }
+
+    .portfolio-headline {
+        margin-bottom: 50px;
+    }
+
+    .project-img {
+        margin-bottom: 30px;
+    }
+
+    .portfolio-project + .portfolio-project {
+        margin-top: 55px;
+    }
+
+    .contacts {
+        padding: 60px 0;
+    }
+
+    .contacts-title {
+        margin-bottom: 20px;
+    }
+
+    .contacts-content {
+        margin-bottom: 20px;
+    }
+
+    .contacts-button {
+        margin-bottom: 70px;
+    }
+
+    .contacts-social {
+        column-gap: 52px;
+        margin-bottom: 21px;
+    }
 }
